@@ -1,6 +1,9 @@
 package net.fenrir.protoos;
 
 import com.mojang.logging.LogUtils;
+import net.fenrir.protoos.item.ModCreativeModeTabs;
+import net.fenrir.protoos.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -22,11 +25,10 @@ public class ProtoOS
     public ProtoOS()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
+        ModItems.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
-
         MinecraftForge.EVENT_BUS.register(this);
-
         modEventBus.addListener(this::addCreative);
     }
 
@@ -37,7 +39,10 @@ public class ProtoOS
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.SAPPHIRE);
+            event.accept(ModItems.SAPPHIRE_DUST);
+        }
     }
 
     @SubscribeEvent
