@@ -2,5 +2,11 @@
   "item.protoos.sapphire": "Sapphire",
   "item.protoos.sapphire_dust": "Sapphire Dust",
   "creativetab.protoos_tab": "ProtoOS Tab",
-  "item.protoos.sapphire_sword": "Sapphire Sword"
+  "item.protoos.sapphire_sword": "Sapphire Sword",
+  "item.protoos.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.protoos.sapphire_axe": "Sapphire Axe",
+  "item.protoos.sapphire_shovel": "Sapphire Shovel",
+  "item.protoos.sapphire_hoe": "Sapphire Hoe",
+  "item.protoos.sapphire_shears": "Sapphire Shears",
+  "item.protoos.sapphire_coal": "Sapphire Coal"
 }
