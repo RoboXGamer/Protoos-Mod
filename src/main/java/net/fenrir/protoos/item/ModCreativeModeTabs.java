@@ -18,6 +18,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.SAPPHIRE.get());
                         output.accept(ModItems.SAPPHIRE_DUST.get());
+                        output.accept(ModItems.SAPPHIRE_SWORD.get());
                     })
                     .withSearchBar()
                     .build());
