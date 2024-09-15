@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  #",
+    " #$",
+    "# $"
+  ],
+  "key": {
+    "$": {
+      "item": "minecraft:string"
+    },
+    "#": {
+      "item": "protoos:sapphire"
+    }
+  },
+  "result": {
+    "item": "protoos:sapphire_fishing_rod"
+  }
+}

@@ -25,6 +25,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SAPPHIRE_HOE.get());
                         output.accept(ModItems.SAPPHIRE_SHEARS.get());
                         output.accept(ModItems.SAPPHIRE_COAL.get());
+                        output.accept(ModItems.SAPPHIRE_BOW.get());
+                        output.accept(ModItems.FLINT_AND_SAPPHIRE.get());
+                        output.accept(ModItems.SAPPHIRE_FISHING_ROD.get());
+                        output.accept(ModItems.SAPPHIRE_ARROW.get());
                     })
                     .withSearchBar()
                     .build());
