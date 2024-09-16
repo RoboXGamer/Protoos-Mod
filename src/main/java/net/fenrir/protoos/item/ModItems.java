@@ -38,7 +38,7 @@ public class ModItems {
             () -> new FishingRodItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> SAPPHIRE_ARROW = ITEMS.register("sapphire_arrow",
             () -> new ArrowItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
-    public static final RegistryObject<Item> ITEM = ITEMS.register("item",
+    public static final RegistryObject<Item> SAPPHIRE_BONEMEAL = ITEMS.register("sapphire_bonemeal",
             () -> new BoneMealItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

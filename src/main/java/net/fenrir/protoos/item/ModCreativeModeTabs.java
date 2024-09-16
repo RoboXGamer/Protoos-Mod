@@ -29,6 +29,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FLINT_AND_SAPPHIRE.get());
                         output.accept(ModItems.SAPPHIRE_FISHING_ROD.get());
                         output.accept(ModItems.SAPPHIRE_ARROW.get());
+                        output.accept(ModItems.SAPPHIRE_BONEMEAL.get());
                     })
                     .withSearchBar()
                     .build());
