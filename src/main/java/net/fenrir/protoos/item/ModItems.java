@@ -41,7 +41,7 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
             () -> new HoeItem(ModToolTiers.SAPPHIRE, 9, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> RUBY_HOE = ITEMS.register("ruby_hoe",
-            () -> new ShovelItem(ModToolTiers.RUBY, 9, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new HoeItem(ModToolTiers.RUBY, 9, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> SAPPHIRE_SHEARS = ITEMS.register("sapphire_shears",
             () -> new ShearsItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> RUBY_SHEARS = ITEMS.register("ruby_shears",
