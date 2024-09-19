@@ -30,6 +30,20 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SAPPHIRE_FISHING_ROD.get());
                         output.accept(ModItems.SAPPHIRE_ARROW.get());
                         output.accept(ModItems.SAPPHIRE_BONEMEAL.get());
+                        output.accept(ModItems.RUBY.get());
+                        output.accept(ModItems.RUBY_DUST.get());
+                        output.accept(ModItems.RUBY_SWORD.get());
+                        output.accept(ModItems.RUBY_PICKAXE.get());
+                        output.accept(ModItems.RUBY_AXE.get());
+                        output.accept(ModItems.RUBY_SHOVEL.get());
+                        output.accept(ModItems.RUBY_HOE.get());
+                        output.accept(ModItems.RUBY_SHEARS.get());
+                        output.accept(ModItems.RUBY_COAL.get());
+                        output.accept(ModItems.RUBY_BOW.get());
+                        output.accept(ModItems.FLINT_AND_RUBY.get());
+                        output.accept(ModItems.RUBY_FISHING_ROD.get());
+                        output.accept(ModItems.RUBY_ARROW.get());
+                        output.accept(ModItems.RUBY_BONEMEAL.get());
                     })
                     .withSearchBar()
                     .build());

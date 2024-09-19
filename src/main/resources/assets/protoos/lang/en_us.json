@@ -1,7 +1,7 @@
 {
+  "creativetab.protoos_tab": "ProtoOS Tab",
   "item.protoos.sapphire": "Sapphire",
   "item.protoos.sapphire_dust": "Sapphire Dust",
-  "creativetab.protoos_tab": "ProtoOS Tab",
   "item.protoos.sapphire_sword": "Sapphire Sword",
   "item.protoos.sapphire_pickaxe": "Sapphire Pickaxe",
   "item.protoos.sapphire_axe": "Sapphire Axe",
@@ -13,5 +13,19 @@
   "item.protoos.flint_and_sapphire": "Flint and Sapphire",
   "item.protoos.sapphire_fishing_rod": "Sapphire Fishing Rod",
   "item.protoos.sapphire_arrow": "Sapphire Arrow",
-  "item.protoos.sapphire_bonemeal": "Sapphire Bonemeal"
+  "item.protoos.sapphire_bonemeal": "Sapphire Bonemeal",
+  "item.protoos.ruby": "Ruby",
+  "item.protoos.ruby_dust": "Ruby Dust",
+  "item.protoos.ruby_sword": "Ruby Sword",
+  "item.protoos.ruby_pickaxe": "Ruby Pickaxe",
+  "item.protoos.ruby_axe": "Ruby Axe",
+  "item.protoos.ruby_shovel": "Ruby Shovel",
+  "item.protoos.ruby_hoe": "Ruby Hoe",
+  "item.protoos.ruby_shears": "Ruby Shears",
+  "item.protoos.ruby_coal": "Ruby Coal",
+  "item.protoos.ruby_bow": "Ruby Bow",
+  "item.protoos.flint_and_ruby": "Flint and Ruby",
+  "item.protoos.ruby_fishing_rod": "Ruby Fishing Rod",
+  "item.protoos.ruby_arrow": "Ruby Arrow",
+  "item.protoos.ruby_bonemeal": "Ruby Bonemeal"
 }
