@@ -20,4 +20,8 @@ public class ModToolTiers {
             new ForgeTier(5, 0, 25f, 5f, 255,
                     ModTags.Blocks.NEEDS_RUBY_TOOL, () -> Ingredient.of(ModItems.RUBY.get())),
             new ResourceLocation(ProtoOS.MOD_ID, "ruby"), List.of(Tiers.NETHERITE), List.of());
+    public static final Tier TOPAZ = TierSortingRegistry.registerTier(
+            new ForgeTier(5,0,25f,5f,255,
+                    ModTags.Blocks.NEEDS_TOPAZ_TOOL, () -> Ingredient.of(ModItems.TOPAZ.get())),
+            new ResourceLocation(ProtoOS.MOD_ID, "topaz"), List.of(Tiers.NETHERITE), List.of());
 }

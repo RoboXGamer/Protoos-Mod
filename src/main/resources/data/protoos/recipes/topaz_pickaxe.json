@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    " $ ",
+    " $ "
+  ],
+  "key": {
+    "$" : {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "protoos:topaz"
+    }
+  },
+  "result": {
+    "item": "protoos:topaz_pickaxe"
+  }
+}

@@ -44,6 +44,20 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RUBY_FISHING_ROD.get());
                         output.accept(ModItems.RUBY_ARROW.get());
                         output.accept(ModItems.RUBY_BONEMEAL.get());
+                        output.accept(ModItems.TOPAZ.get());
+                        output.accept(ModItems.TOPAZ_DUST.get());
+                        output.accept(ModItems.TOPAZ_SWORD.get());
+                        output.accept(ModItems.TOPAZ_PICKAXE.get());
+                        output.accept(ModItems.TOPAZ_AXE.get());
+                        output.accept(ModItems.TOPAZ_SHOVEL.get());
+                        output.accept(ModItems.TOPAZ_HOE.get());
+                        output.accept(ModItems.TOPAZ_SHEARS.get());
+                        output.accept(ModItems.TOPAZ_COAL.get());
+                        output.accept(ModItems.TOPAZ_BOW.get());
+                        output.accept(ModItems.FLINT_AND_TOPAZ.get());
+                        output.accept(ModItems.TOPAZ_FISHING_ROD.get());
+                        output.accept(ModItems.TOPAZ_ARROW.get());
+                        output.accept(ModItems.TOPAZ_BONEMEAL.get());
                     })
                     .withSearchBar()
                     .build());
