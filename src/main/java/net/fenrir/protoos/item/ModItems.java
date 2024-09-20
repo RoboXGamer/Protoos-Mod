@@ -96,6 +96,22 @@ public class ModItems {
             () -> new BoneMealItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> TOPAZ_BONEMEAL = ITEMS.register("topaz_bonemeal",
             () -> new BoneMealItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
+            () -> new ArmorItem(ModArmourMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
+            () -> new ArmorItem(ModArmourMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings",
+            () -> new ArmorItem(ModArmourMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
+            () -> new ArmorItem(ModArmourMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
+            () -> new ArmorItem(ModArmourMaterials.RUBY, ArmorItem.Type.HELMET, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
+            () -> new ArmorItem(ModArmourMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",
+            () -> new ArmorItem(ModArmourMaterials.RUBY, ArmorItem.Type.LEGGINGS, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
+            () -> new ArmorItem(ModArmourMaterials.RUBY, ArmorItem.Type.BOOTS, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
