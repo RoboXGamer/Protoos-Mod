@@ -18,6 +18,7 @@
   "item.protoos.sapphire_chestplate": "Sapphire Chestplate",
   "item.protoos.sapphire_leggings": "Sapphire Leggings",
   "item.protoos.sapphire_boots": "Sapphire Boots",
+  "item.protoos.sapphire_elytra": "Sapphire Elytra",
   "item.protoos.ruby": "Ruby",
   "item.protoos.ruby_dust": "Ruby Dust",
   "item.protoos.ruby_sword": "Ruby Sword",
@@ -36,6 +37,7 @@
   "item.protoos.ruby_chestplate": "Ruby Chestplate",
   "item.protoos.ruby_leggings": "Ruby Leggings",
   "item.protoos.ruby_boots": "Ruby Boots",
+  "item.protoos.ruby_elytra": "Ruby Elytra",
   "item.protoos.topaz": "Topaz",
   "item.protoos.topaz_dust": "Topaz Dust",
   "item.protoos.topaz_sword": "Topaz Sword",
@@ -49,5 +51,6 @@
   "item.protoos.flint_and_topaz": "Flint and Topaz",
   "item.protoos.topaz_fishing_rod": "Topaz Fishing Rod",
   "item.protoos.topaz_arrow": "Topaz Arrow",
-  "item.protoos.topaz_bonemeal": "Topaz Bonemeal"
+  "item.protoos.topaz_bonemeal": "Topaz Bonemeal",
+  "item.protoos.topaz_elytra": "Topaz Elytra"
 }

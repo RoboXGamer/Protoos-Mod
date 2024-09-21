@@ -2,6 +2,7 @@ package net.fenrir.protoos.item;
 
 import net.fenrir.protoos.ProtoOS;
 import net.fenrir.protoos.item.custom.FuelItem;
+import net.fenrir.protoos.item.custom.ModElytra;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -24,6 +25,12 @@ public class ModItems {
             () -> new Item(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> TOPAZ_DUST = ITEMS.register("topaz_dust",
             () -> new Item(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> SAPPHIRE_ELYTRA = ITEMS.register("sapphire_elytra",
+            () -> new ModElytra(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> RUBY_ELYTRA = ITEMS.register("ruby_elytra",
+            () -> new ModElytra(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> TOPAZ_ELYTRA = ITEMS.register("topaz_elytra",
+            () -> new ModElytra(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
             () -> new SwordItem(ModToolTiers.SAPPHIRE, 9, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",

@@ -34,6 +34,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SAPPHIRE_CHESTPLATE.get());
                         output.accept(ModItems.SAPPHIRE_LEGGINGS.get());
                         output.accept(ModItems.SAPPHIRE_BOOTS.get());
+                        output.accept(ModItems.SAPPHIRE_ELYTRA.get());
                         output.accept(ModItems.RUBY.get());
                         output.accept(ModItems.RUBY_DUST.get());
                         output.accept(ModItems.RUBY_SWORD.get());
@@ -52,6 +53,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RUBY_CHESTPLATE.get());
                         output.accept(ModItems.RUBY_LEGGINGS.get());
                         output.accept(ModItems.RUBY_BOOTS.get());
+                        output.accept(ModItems.RUBY_ELYTRA.get());
                         output.accept(ModItems.TOPAZ.get());
                         output.accept(ModItems.TOPAZ_DUST.get());
                         output.accept(ModItems.TOPAZ_SWORD.get());
@@ -66,6 +68,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TOPAZ_FISHING_ROD.get());
                         output.accept(ModItems.TOPAZ_ARROW.get());
                         output.accept(ModItems.TOPAZ_BONEMEAL.get());
+                        output.accept(ModItems.TOPAZ_ELYTRA.get());
                     })
                     .withSearchBar()
                     .build());
