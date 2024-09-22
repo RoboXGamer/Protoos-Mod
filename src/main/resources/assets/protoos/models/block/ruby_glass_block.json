@@ -1,0 +1,7 @@
+{
+  "render_type": "minecraft:cutout",
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "protoos:block/ruby_glass_block"
+  }
+}

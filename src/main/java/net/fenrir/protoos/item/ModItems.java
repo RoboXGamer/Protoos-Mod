@@ -31,6 +31,12 @@ public class ModItems {
             () -> new ModElytra(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> TOPAZ_ELYTRA = ITEMS.register("topaz_elytra",
             () -> new ModElytra(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> SAPPHIRE_SHIELD = ITEMS.register("sapphire_shield",
+            () -> new ShieldItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> RUBY_SHIELD = ITEMS.register("ruby_shield",
+            () -> new ShieldItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> TOPAZ_SHIELD = ITEMS.register("topaz_shield",
+            () -> new ShieldItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
             () -> new SwordItem(ModToolTiers.SAPPHIRE, 9, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",

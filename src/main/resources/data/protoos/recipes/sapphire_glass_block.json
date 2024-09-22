@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    " $ ",
+    "   "
+  ],
+  "key": {
+    "$": {
+      "item": "minecraft:glass"
+    },
+    "#": {
+      "item": "protoos:sapphire"
+    }
+  },
+  "result": {
+    "item": "protoos:sapphire_glass_block"
+  }
+}

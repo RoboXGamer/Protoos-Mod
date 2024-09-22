@@ -1,6 +1,7 @@
 package net.fenrir.protoos.item;
 
 import net.fenrir.protoos.ProtoOS;
+import net.fenrir.protoos.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -69,6 +70,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TOPAZ_ARROW.get());
                         output.accept(ModItems.TOPAZ_BONEMEAL.get());
                         output.accept(ModItems.TOPAZ_ELYTRA.get());
+                        output.accept(ModBlocks.SAPPHIRE_GLASS_BLOCK.get());
+                        output.accept(ModBlocks.RUBY_GLASS_BLOCK.get());
+                        output.accept(ModBlocks.TOPAZ_GLASS_BLOCK.get());
                     })
                     .withSearchBar()
                     .build());

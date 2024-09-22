@@ -52,5 +52,8 @@
   "item.protoos.topaz_fishing_rod": "Topaz Fishing Rod",
   "item.protoos.topaz_arrow": "Topaz Arrow",
   "item.protoos.topaz_bonemeal": "Topaz Bonemeal",
-  "item.protoos.topaz_elytra": "Topaz Elytra"
+  "item.protoos.topaz_elytra": "Topaz Elytra",
+  "block.protoos.sapphire_glass_block": "Sapphire Glass Block",
+  "block.protoos.ruby_glass_block": "Ruby Glass Block",
+  "block.protoos.topaz_glass_block": "Topaz Glass Block"
 }
