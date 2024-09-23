@@ -13,7 +13,13 @@ public enum ModArmourMaterials implements ArmorMaterial {
     SAPPHIRE("sapphire",0, new int[]{10, 10, 10, 10}, 255,
             SoundEvents.ARMOR_EQUIP_IRON, 100f, 200f, () -> Ingredient.of(ModItems.SAPPHIRE.get())),
     RUBY("ruby",0, new int[]{10, 10, 10, 10}, 255,
-    SoundEvents.ARMOR_EQUIP_IRON, 100f, 200f, () -> Ingredient.of(ModItems.RUBY.get()));
+            SoundEvents.ARMOR_EQUIP_IRON, 100f, 200f, () -> Ingredient.of(ModItems.RUBY.get())),
+    TOPAZ("topaz", 0, new int[]{10,10,10,10},255,
+            SoundEvents.ARMOR_EQUIP_IRON, 100f, 200f, () -> Ingredient.of(ModItems.TOPAZ.get())),
+    EMERALD("emerald",0, new int[]{10,10,10,10},255,
+            SoundEvents.ARMOR_EQUIP_IRON, 100f, 200f, () -> Ingredient.of(ModItems.EMERALD.get())),
+    DIAMOND("diamond",0, new int[]{10,10,10,10},255,
+            SoundEvents.ARMOR_EQUIP_IRON, 100f, 200f, () -> Ingredient.of(ModItems.DIAMOND.get()));
 
     private final String name;
     private final int durabilityMultiplier;

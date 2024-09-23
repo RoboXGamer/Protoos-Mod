@@ -11,6 +11,8 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_SAPPHIRE_TOOL = tag("needs_sapphire_tool");
         public static final TagKey<Block> NEEDS_RUBY_TOOL = tag("needs_ruby_tool");
         public static final TagKey<Block> NEEDS_TOPAZ_TOOL = tag("needs_topaz_tool");
+        public static final TagKey<Block> NEEDS_EMERALD_TOOL = tag("needs_emerald_tool");
+        public static final TagKey<Block> NEEDS_DIAMOND_TOOL = tag("needs_diamond_tool");
 
         public static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(ProtoOS.MOD_ID, name));

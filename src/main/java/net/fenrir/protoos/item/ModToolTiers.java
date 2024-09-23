@@ -24,4 +24,12 @@ public class ModToolTiers {
             new ForgeTier(5,0,25f,5f,255,
                     ModTags.Blocks.NEEDS_TOPAZ_TOOL, () -> Ingredient.of(ModItems.TOPAZ.get())),
             new ResourceLocation(ProtoOS.MOD_ID, "topaz"), List.of(Tiers.NETHERITE), List.of());
+    public static final Tier EMERALD = TierSortingRegistry.registerTier(
+            new ForgeTier(5,0,25f,5f,255,
+                    ModTags.Blocks.NEEDS_EMERALD_TOOL, () -> Ingredient.of(ModItems.EMERALD.get())),
+            new ResourceLocation(ProtoOS.MOD_ID, "emerald"), List.of(Tiers.NETHERITE), List.of());
+    public static final Tier DIAMOND = TierSortingRegistry.registerTier(
+            new ForgeTier(5,0,25f,5f,255,
+                    ModTags.Blocks.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(ModItems.DIAMOND.get())),
+            new ResourceLocation(ProtoOS.MOD_ID, "diamond"), List.of(Tiers.NETHERITE), List.of());
 }
