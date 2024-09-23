@@ -38,35 +38,35 @@ public class ModItems {
     public static final RegistryObject<Item> TOPAZ_SHIELD = ITEMS.register("topaz_shield",
             () -> new ShieldItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
-            () -> new SwordItem(ModToolTiers.SAPPHIRE, 9, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new SwordItem(ModToolTiers.SAPPHIRE, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",
-            () -> new SwordItem(ModToolTiers.RUBY, 9, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new SwordItem(ModToolTiers.RUBY, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> TOPAZ_SWORD = ITEMS.register("topaz_sword",
-            () -> new SwordItem(ModToolTiers.TOPAZ,9,25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new SwordItem(ModToolTiers.TOPAZ,250,25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.SAPPHIRE, 9, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new PickaxeItem(ModToolTiers.SAPPHIRE, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.RUBY, 9, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new PickaxeItem(ModToolTiers.RUBY, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> TOPAZ_PICKAXE = ITEMS.register("topaz_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.TOPAZ,9,25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new PickaxeItem(ModToolTiers.TOPAZ,250,25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",
-            () -> new AxeItem(ModToolTiers.SAPPHIRE, 9, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new AxeItem(ModToolTiers.SAPPHIRE, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> RUBY_AXE = ITEMS.register("ruby_axe",
-            () -> new AxeItem(ModToolTiers.RUBY, 9,25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new AxeItem(ModToolTiers.RUBY, 250,25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> TOPAZ_AXE = ITEMS.register("topaz_axe",
-            () -> new AxeItem(ModToolTiers.TOPAZ,9,25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new AxeItem(ModToolTiers.TOPAZ,250,25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel",
-            () -> new ShovelItem(ModToolTiers.SAPPHIRE, 9, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new ShovelItem(ModToolTiers.SAPPHIRE, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel",
-            () -> new ShovelItem(ModToolTiers.RUBY, 9,25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new ShovelItem(ModToolTiers.RUBY, 250,25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> TOPAZ_SHOVEL = ITEMS.register("topaz_shovel",
-            () -> new ShovelItem(ModToolTiers.TOPAZ,9,25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new ShovelItem(ModToolTiers.TOPAZ,250,25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
-            () -> new HoeItem(ModToolTiers.SAPPHIRE, 9, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new HoeItem(ModToolTiers.SAPPHIRE, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> RUBY_HOE = ITEMS.register("ruby_hoe",
-            () -> new HoeItem(ModToolTiers.RUBY, 9, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new HoeItem(ModToolTiers.RUBY, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> TOPAZ_HOE = ITEMS.register("topaz_hoe",
-            () -> new HoeItem(ModToolTiers.TOPAZ,9,25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+            () -> new HoeItem(ModToolTiers.TOPAZ,250,25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> SAPPHIRE_SHEARS = ITEMS.register("sapphire_shears",
             () -> new ShearsItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> RUBY_SHEARS = ITEMS.register("ruby_shears",

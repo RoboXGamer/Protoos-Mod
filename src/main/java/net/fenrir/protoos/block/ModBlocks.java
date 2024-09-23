@@ -18,11 +18,11 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, ProtoOS.MOD_ID);
 
     public static final RegistryObject<Block> SAPPHIRE_GLASS_BLOCK = registerBlock("sapphire_glass_block",
-            () -> new Block(BlockBehaviour.Properties.of().noOcclusion().explosionResistance(10000f)));
+            () -> new Block(BlockBehaviour.Properties.of().noOcclusion().explosionResistance(1000000f)));
     public static final RegistryObject<Block> RUBY_GLASS_BLOCK = registerBlock("ruby_glass_block",
-            () -> new Block(BlockBehaviour.Properties.of().noOcclusion().explosionResistance(100000f)));
+            () -> new Block(BlockBehaviour.Properties.of().noOcclusion().explosionResistance(1000000f)));
     public static final RegistryObject<Block> TOPAZ_GLASS_BLOCK = registerBlock("topaz_glass_block",
-            () -> new Block(BlockBehaviour.Properties.of().noOcclusion().explosionResistance(100000f)));
+            () -> new Block(BlockBehaviour.Properties.of().noOcclusion().explosionResistance(1000000f)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
