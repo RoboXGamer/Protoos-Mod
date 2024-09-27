@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "protoos:diamond"
+    }
+  ],
+  "result": {
+    "item": "protoos:diamond_dust",
+    "count": 9
+  }
+}

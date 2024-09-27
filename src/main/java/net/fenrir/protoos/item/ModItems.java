@@ -51,7 +51,7 @@ public class ModItems {
             () -> new ModElytra(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> EMERALD_ELYTRA = ITEMS.register("emerald_elytra",
             () -> new ModElytra(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
-    public static final RegistryObject<Item> DIAMOND_ELYTRA = ITEMS.register("diamond-elytra",
+    public static final RegistryObject<Item> DIAMOND_ELYTRA = ITEMS.register("diamond_elytra",
             () -> new ModElytra(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> SAPPHIRE_SHIELD = ITEMS.register("sapphire_shield",
             () -> new ShieldItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));

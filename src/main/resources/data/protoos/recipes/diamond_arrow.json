@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    " $ ",
+    " % "
+  ],
+  "key": {
+    "%": {
+      "item": "minecraft:feather"
+    },
+    "$": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "protoos:diamond"
+    }
+  },
+  "result": {
+    "item": "protoos:diamond_arrow",
+    "count": 8
+  }
+}

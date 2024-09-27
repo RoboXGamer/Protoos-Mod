@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "protoos:diamond"
+    }
+  },
+  "result": {
+    "item": "protoos:diamond_chestplate"
+  }
+}
