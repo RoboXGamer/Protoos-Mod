@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "%%%",
+    "%#%",
+    "%%%"
+  ],
+  "key": {
+    "%": {
+      "item": "minecraft:cobblestone"
+    },
+    "#": {
+      "item": "protoos:ruby"
+    }
+  },
+  "result": {
+    "item": "protoos:simple_item_and_block_creation_machine",
+    "count": 1
+  }
+}

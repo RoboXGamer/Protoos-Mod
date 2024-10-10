@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "protoos:simple_item_and_block_creation_machine"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "protoos:blocks/simple_item_and_block_creation_machine"
+}

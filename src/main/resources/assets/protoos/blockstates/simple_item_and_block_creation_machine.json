@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "": {
+      "model": "protoos:block/simple_item_and_block_creation_machine"
+    }
+  }
+}

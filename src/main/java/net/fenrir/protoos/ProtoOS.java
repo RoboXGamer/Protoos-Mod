@@ -2,6 +2,7 @@ package net.fenrir.protoos;
 
 import com.mojang.logging.LogUtils;
 import net.fenrir.protoos.block.ModBlocks;
+import net.fenrir.protoos.block.entity.ModBlockEntities;
 import net.fenrir.protoos.item.ModCreativeModeTabs;
 import net.fenrir.protoos.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -27,6 +28,7 @@ public class ProtoOS
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         modEventBus.addListener(this::commonSetup);

@@ -92,6 +92,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SAPPHIRE_GLASS_BLOCK.get());
                         output.accept(ModBlocks.RUBY_GLASS_BLOCK.get());
                         output.accept(ModBlocks.TOPAZ_GLASS_BLOCK.get());
+                        output.accept(ModBlocks.SIMPLE_ITEM_AND_BLOCK_CREATION_MACHINE.get());
                     })
                     .withSearchBar()
                     .build());
