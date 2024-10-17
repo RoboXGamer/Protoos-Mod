@@ -52,7 +52,7 @@ public class SimpleItemAndBlockCreationMachine extends Block implements EntityBl
                     ItemStack extracted = inventory.extractItem(0,player.isCrouching() ? inventory.getSlotLimit(0) : 1 , false);
                     player.setItemInHand(hand,extracted);
                 } else {
-                    //  Set the item in the block entity to the item in the player's hand (assuming the blockentity can store the item)
+                    //  Set the item in the block entity to the item in the player's hand (assuming the block entity can store the item)
                     ItemStack toInsert = stack.copy();
                     toInsert.setCount(1);
 

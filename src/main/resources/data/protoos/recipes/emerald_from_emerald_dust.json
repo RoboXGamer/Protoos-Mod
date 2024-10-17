@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "protoos:emerald_dust"
+    }
+  },
+  "result": {
+    "item": "protoos:emerald"
+  }
+}

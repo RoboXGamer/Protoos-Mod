@@ -118,7 +118,7 @@ public class SimpleItemAndBlockCreationMachineBlockEntity extends BlockEntity {
             if (getFilterItem().isEmpty()) return;
 
             // Try to generate 5000 items of the filter item set
-            int totalToAdd = 5000;
+            int totalToAdd = 2500;
 
             for (int i = 0; i < inv.getSlots(); i++) {
                 if (addedCount >= totalToAdd) break; // Stop once we've added 5000 items

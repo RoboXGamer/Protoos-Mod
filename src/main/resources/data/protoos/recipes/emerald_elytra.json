@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "# #",
+    "$ $",
+    "   "
+  ],
+  "key": {
+    "$": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "#": {
+      "item": "protoos:emerald"
+    }
+  },
+  "result": {
+    "item": "protoos:emerald_elytra"
+  }
+}

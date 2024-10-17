@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "protoos:emerald"
+    }
+  ],
+  "result": {
+    "item": "protoos:emerald_dust",
+    "count": 9
+  }
+}
