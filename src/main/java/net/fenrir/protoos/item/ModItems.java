@@ -63,6 +63,16 @@ public class ModItems {
             () -> new ShieldItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> DIAMOND_SHIELD = ITEMS.register("diamond_shield",
             () -> new ShieldItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> SAPPHIRE_TRIDENT = ITEMS.register("sapphire_trident",
+            () -> new TridentItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> RUBY_TRIDENT = ITEMS.register("ruby_trident",
+            () -> new TridentItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> TOPAZ_TRIDENT = ITEMS.register("topaz_trident",
+            () -> new TridentItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> EMERALD_TRIDENT = ITEMS.register("emerald_trident",
+            () -> new TridentItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> DIAMOND_TRIDENT = ITEMS.register("diamond_trident",
+            () -> new TridentItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
             () -> new SwordItem(ModToolTiers.SAPPHIRE, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",

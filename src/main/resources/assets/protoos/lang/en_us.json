@@ -38,7 +38,7 @@
   "item.protoos.diamond_leggings": "Diamond Leggings",
   "item.protoos.diamond_boots": "Diamond Boots",
   "item.protoos.diamond_elytra": "Diamond Elytra",
-  "item.protoos.emerald": "Diamond",
+  "item.protoos.emerald": "Emerald",
   "item.protoos.emerald_dust": "Emerald Dust",
   "item.protoos.emerald_sword": "Emerald Sword",
   "item.protoos.emerald_pickaxe": "Emerald Pickaxe",
@@ -90,5 +90,6 @@
   "block.protoos.sapphire_glass_block": "Sapphire Glass Block",
   "block.protoos.ruby_glass_block": "Ruby Glass Block",
   "block.protoos.topaz_glass_block": "Topaz Glass Block",
-  "block.protoos.simple_item_and_block_creation_machine": "Simple Item And Block Creation Machine"
+  "block.protoos.simple_item_and_block_creation_machine": "Simple Item And Block Creation Machine",
+  "block.protoos.gemstone_chest": "Gemstone Chest"
 }
