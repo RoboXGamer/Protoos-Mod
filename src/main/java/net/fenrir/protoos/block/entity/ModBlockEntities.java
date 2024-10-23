@@ -2,6 +2,7 @@ package net.fenrir.protoos.block.entity;
 
 import net.fenrir.protoos.ProtoOS;
 import net.fenrir.protoos.block.ModBlocks;
+import net.fenrir.protoos.block.custom.EnchantingBench.EnchantmentBenchBlockEntity;
 import net.fenrir.protoos.block.custom.Gemstone_Chest.GemstoneChestBlockEntity;
 import net.fenrir.protoos.block.custom.Simple_Item_And_Block_Creation_Machine.SimpleItemAndBlockCreationMachineBlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -22,6 +23,10 @@ public class ModBlockEntities {
     public static final RegistryObject<BlockEntityType<GemstoneChestBlockEntity>> GEMSTONE_CHEST_ENTITY =
             BLOCK_ENTITY_TYPE.register("gemstone_chest_entity", () -> BlockEntityType.Builder.of(GemstoneChestBlockEntity::new,
                     ModBlocks.GEMSTONE_CHEST.get())
+                    .build(null));
+    public static final RegistryObject<BlockEntityType<EnchantmentBenchBlockEntity>> ENCHANTING_BENCH =
+            BLOCK_ENTITY_TYPE.register("enchanting_bench", () -> BlockEntityType.Builder.of(EnchantmentBenchBlockEntity::new,
+                    ModBlocks.ENCHANTING_BENCH.get())
                     .build(null));
 
     public static void register(IEventBus eventBus) {

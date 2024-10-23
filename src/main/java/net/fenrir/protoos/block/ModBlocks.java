@@ -1,13 +1,13 @@
 package net.fenrir.protoos.block;
 
 import net.fenrir.protoos.ProtoOS;
+import net.fenrir.protoos.block.custom.EnchantingBench.EnchantingBench;
 import net.fenrir.protoos.block.custom.Gemstone_Chest.GemstoneChest;
 import net.fenrir.protoos.block.custom.Simple_Item_And_Block_Creation_Machine.SimpleItemAndBlockCreationMachine;
 import net.fenrir.protoos.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.HopperBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -30,7 +30,8 @@ public class ModBlocks {
             () -> new SimpleItemAndBlockCreationMachine(BlockBehaviour.Properties.of().noOcclusion()));
     public static final RegistryObject<GemstoneChest> GEMSTONE_CHEST = registerBlock("gemstone_chest",
             () -> new GemstoneChest(BlockBehaviour.Properties.of()));
-
+    public static final RegistryObject<Block> ENCHANTING_BENCH = registerBlock("enchanting_bench",
+            () -> new EnchantingBench(BlockBehaviour.Properties.of()));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

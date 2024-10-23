@@ -1,8 +1,11 @@
 package net.fenrir.protoos.item;
 
 import net.fenrir.protoos.ProtoOS;
+import net.fenrir.protoos.block.ModBlocks;
 import net.fenrir.protoos.item.custom.FuelItem;
 import net.fenrir.protoos.item.custom.ModElytra;
+import net.fenrir.protoos.item.custom.ModHammer;
+import net.fenrir.protoos.util.ModTags;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -123,6 +126,16 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.EMERALD, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> DIAMOND_HOE = ITEMS.register("diamond_hoe",
             () -> new HoeItem(ModToolTiers.DIAMOND, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> SAPPHIRE_HAMMER = ITEMS.register("sapphire_hammer",
+            () -> new ModHammer(ModToolTiers.SAPPHIRE, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> RUBY_HAMMER = ITEMS.register("ruby_hammer",
+            () -> new ModHammer(ModToolTiers.RUBY, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> TOPAZ_HAMMER = ITEMS.register("topaz_hammer",
+            () -> new ModHammer(ModToolTiers.TOPAZ, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> EMERALD_HAMMER = ITEMS.register("emerald_hammer",
+            () -> new ModHammer(ModToolTiers.EMERALD, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> DIAMOND_HAMMER = ITEMS.register("diamond_hammer",
+            () -> new ModHammer(ModToolTiers.DIAMOND, 250, 25, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> SAPPHIRE_SHEARS = ITEMS.register("sapphire_shears",
             () -> new ShearsItem(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> RUBY_SHEARS = ITEMS.register("ruby_shears",

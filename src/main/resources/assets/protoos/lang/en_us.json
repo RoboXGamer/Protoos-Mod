@@ -7,6 +7,7 @@
   "item.protoos.sapphire_axe": "Sapphire Axe",
   "item.protoos.sapphire_shovel": "Sapphire Shovel",
   "item.protoos.sapphire_hoe": "Sapphire Hoe",
+  "item.protoos.sapphire_hammer": "Sapphire Hammer",
   "item.protoos.sapphire_shears": "Sapphire Shears",
   "item.protoos.sapphire_coal": "Sapphire Coal",
   "item.protoos.sapphire_bow": "Sapphire Bow",
@@ -26,6 +27,7 @@
   "item.protoos.diamond_axe": "Diamond Axe",
   "item.protoos.diamond_shovel": "Diamond Shovel",
   "item.protoos.diamond_hoe": "Diamond Hoe",
+  "item.protoos.diamond_hammer": "Diamond Hammer",
   "item.protoos.diamond_shears": "Diamond Shears",
   "item.protoos.diamond_coal": "Diamond Coal",
   "item.protoos.diamond_bow": "Diamond Bow",
@@ -45,6 +47,7 @@
   "item.protoos.emerald_axe": "Emerald Axe",
   "item.protoos.emerald_shovel": "Emerald Shovel",
   "item.protoos.emerald_hoe": "Emerald Hoe",
+  "item.protoos.emerald_hammer": "Emerald Hammer",
   "item.protoos.emerald_shears": "Emerald Shears",
   "item.protoos.emerald_coal": "Emerald Coal",
   "item.protoos.emerald_bow": "Emerald Bow",
@@ -60,6 +63,7 @@
   "item.protoos.ruby_axe": "Ruby Axe",
   "item.protoos.ruby_shovel": "Ruby Shovel",
   "item.protoos.ruby_hoe": "Ruby Hoe",
+  "item.protoos.ruby_hammer": "Ruby Hammer",
   "item.protoos.ruby_shears": "Ruby Shears",
   "item.protoos.ruby_coal": "Ruby Coal",
   "item.protoos.ruby_bow": "Ruby Bow",
@@ -79,6 +83,7 @@
   "item.protoos.topaz_axe": "Topaz Axe",
   "item.protoos.topaz_shovel": "Topaz Shovel",
   "item.protoos.topaz_hoe": "Topaz Hoe",
+  "item.protoos.topaz_hammer": "Topaz Hammer",
   "item.protoos.topaz_shears": "Topaz Shears",
   "item.protoos.topaz_coal": "Topaz Coal",
   "item.protoos.topaz_bow": "Topaz Bow",
@@ -91,5 +96,6 @@
   "block.protoos.ruby_glass_block": "Ruby Glass Block",
   "block.protoos.topaz_glass_block": "Topaz Glass Block",
   "block.protoos.simple_item_and_block_creation_machine": "Simple Item And Block Creation Machine",
-  "block.protoos.gemstone_chest": "Gemstone Chest"
+  "block.protoos.gemstone_chest": "Gemstone Chest",
+  "container.enchanting": "Enchanting"
 }

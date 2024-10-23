@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SAPPHIRE_AXE.get());
                         output.accept(ModItems.SAPPHIRE_SHOVEL.get());
                         output.accept(ModItems.SAPPHIRE_HOE.get());
+                        output.accept(ModItems.SAPPHIRE_HAMMER.get());
                         output.accept(ModItems.SAPPHIRE_SHEARS.get());
                         output.accept(ModItems.SAPPHIRE_COAL.get());
                         output.accept(ModItems.SAPPHIRE_BOW.get());
@@ -43,6 +44,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.DIAMOND_AXE.get());
                         output.accept(ModItems.DIAMOND_SHOVEL.get());
                         output.accept(ModItems.DIAMOND_HOE.get());
+                        output.accept(ModItems.DIAMOND_HAMMER.get());
                         output.accept(ModItems.DIAMOND_SHEARS.get());
                         output.accept(ModItems.DIAMOND_COAL.get());
                         output.accept(ModItems.DIAMOND_BOW.get());
@@ -62,6 +64,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.EMERALD_AXE.get());
                         output.accept(ModItems.EMERALD_SHOVEL.get());
                         output.accept(ModItems.EMERALD_HOE.get());
+                        output.accept(ModItems.EMERALD_HAMMER.get());
                         output.accept(ModItems.EMERAlD_SHEARS.get());
                         output.accept(ModItems.EMERALD_COAL.get());
                         output.accept(ModItems.EMERALD_BOW.get());
@@ -77,6 +80,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RUBY_AXE.get());
                         output.accept(ModItems.RUBY_SHOVEL.get());
                         output.accept(ModItems.RUBY_HOE.get());
+                        output.accept(ModItems.RUBY_HAMMER.get());
                         output.accept(ModItems.RUBY_SHEARS.get());
                         output.accept(ModItems.RUBY_COAL.get());
                         output.accept(ModItems.RUBY_BOW.get());
@@ -96,6 +100,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TOPAZ_AXE.get());
                         output.accept(ModItems.TOPAZ_SHOVEL.get());
                         output.accept(ModItems.TOPAZ_HOE.get());
+                        output.accept(ModItems.TOPAZ_HAMMER.get());
                         output.accept(ModItems.TOPAZ_SHEARS.get());
                         output.accept(ModItems.TOPAZ_COAL.get());
                         output.accept(ModItems.TOPAZ_BOW.get());
@@ -108,6 +113,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RUBY_GLASS_BLOCK.get());
                         output.accept(ModBlocks.TOPAZ_GLASS_BLOCK.get());
                         output.accept(ModBlocks.SIMPLE_ITEM_AND_BLOCK_CREATION_MACHINE.get());
+                        output.accept(ModBlocks.ENCHANTING_BENCH.get());
                     })
                     .withSearchBar()
                     .build());

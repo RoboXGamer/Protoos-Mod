@@ -1,5 +1,6 @@
 package net.fenrir.protoos.menu;
 
+import net.fenrir.protoos.block.custom.EnchantingBench.EnchantingBenchMenu;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraftforge.common.extensions.IForgeMenuType;
@@ -18,7 +19,6 @@ public class ModMenus {
             "gemstone_chest_menu",
             GemstoneChestMenu::new
     );
-
     public static void register(IEventBus eventBus){
         MENUS.register(eventBus);
     }
