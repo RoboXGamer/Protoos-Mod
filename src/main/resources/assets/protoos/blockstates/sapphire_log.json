@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "protoos:block/sapphire_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "protoos:block/sapphire_log"
+    },
+    "axis=z": {
+      "model": "protoos:block/sapphire_log_horizontal",
+      "x": 90
+    }
+  }
+}

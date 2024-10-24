@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "protoos:block/sapphire_door_bottom",
+    "top": "protoos:block/sapphire_door_top"
+  }
+}

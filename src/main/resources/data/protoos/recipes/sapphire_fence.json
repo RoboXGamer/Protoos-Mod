@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "#$#",
+    "#$#"
+  ],
+  "key": {
+    "$": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "protoos:sapphire_planks"
+    }
+  },
+  "result": {
+    "item": "protoos:sapphire_fence",
+    "result": 3
+  }
+}

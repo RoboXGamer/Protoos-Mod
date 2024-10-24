@@ -112,6 +112,16 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SAPPHIRE_GLASS_BLOCK.get());
                         output.accept(ModBlocks.RUBY_GLASS_BLOCK.get());
                         output.accept(ModBlocks.TOPAZ_GLASS_BLOCK.get());
+                        output.accept(ModBlocks.SAPPHIRE_LOG.get());
+                        output.accept(ModBlocks.SAPPHIRE_PLANKS.get());
+                        output.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.SAPPHIRE_DOOR.get());
+                        output.accept(ModBlocks.SAPPHIRE_FENCE.get());
+                        output.accept(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+                        output.accept(ModBlocks.SAPPHIRE_SLAB.get());
+                        output.accept(ModBlocks.SAPPHIRE_STAIRS.get());
+                        output.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+                        output.accept(ModBlocks.SAPPHIRE_SIGN.get());
                         output.accept(ModBlocks.SIMPLE_ITEM_AND_BLOCK_CREATION_MACHINE.get());
                         output.accept(ModBlocks.ENCHANTING_BENCH.get());
                     })

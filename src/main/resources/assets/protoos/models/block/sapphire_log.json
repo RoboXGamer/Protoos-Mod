@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "protoos:block/sapphire_log_top",
+    "side": "protoos:block/sapphire_log"
+  }
+}

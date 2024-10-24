@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "## ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "protoos:sapphire_planks"
+    }
+  },
+  "result": {
+    "item": "protoos:sapphire_pressure_plate"
+  }
+}

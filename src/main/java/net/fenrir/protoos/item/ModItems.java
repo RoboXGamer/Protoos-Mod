@@ -246,6 +246,8 @@ public class ModItems {
             () -> new ArmorItem(ModArmourMaterials.EMERALD, ArmorItem.Type.BOOTS, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> DIAMOND_BOOTS = ITEMS.register("diamond_boots",
             () -> new ArmorItem(ModArmourMaterials.DIAMOND, ArmorItem.Type.BOOTS, new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> PURIFIED_WATER = ITEMS.register("purified_water",
+            () -> new Item(new Item.Properties().fireResistant().rarity(Rarity.EPIC)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
