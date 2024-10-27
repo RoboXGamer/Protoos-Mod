@@ -1,6 +1,7 @@
 package net.fenrir.protoos.block;
 
 import net.fenrir.protoos.ProtoOS;
+import net.fenrir.protoos.block.custom.BatteryBlock.BatteryBlock;
 import net.fenrir.protoos.block.custom.EnchantingBench.EnchantingBench;
 import net.fenrir.protoos.block.custom.Gemstone_Chest.GemstoneChest;
 import net.fenrir.protoos.block.custom.Simple_Item_And_Block_Creation_Machine.SimpleItemAndBlockCreationMachine;
@@ -55,6 +56,8 @@ public class ModBlocks {
             () -> new TrapDoorBlock(BlockBehaviour.Properties.of().noOcclusion(),BlockSetType.OAK));
     public static final RegistryObject<Block> SAPPHIRE_SIGN = registerBlock("sapphire_sign",
             () -> new StandingSignBlock(BlockBehaviour.Properties.of(), WoodType.OAK));
+    public static final RegistryObject<Block> BATTERY_BLOCK = registerBlock("battery_block",
+            () -> new BatteryBlock(BlockBehaviour.Properties.of()));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
