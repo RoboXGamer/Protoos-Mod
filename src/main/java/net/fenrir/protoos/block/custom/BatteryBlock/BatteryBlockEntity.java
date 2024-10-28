@@ -82,6 +82,8 @@ public class BatteryBlockEntity extends BlockEntity {
     BlockPos pos = this.getBlockPos();
     if (level == null || level.isClientSide() || !(level instanceof ServerLevel slevel) || !(level.getBlockEntity(pos) instanceof BatteryBlockEntity be)) return;
     
+    if (!be.getBlockState().getValue(BatteryBlock.POWERED)) return;
+    
     if (everySecond(1)) {
       //  TESTING
       be.energyStorage.addEnergy(FE_PER_TICK * 20);
